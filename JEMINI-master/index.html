@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">JEMINI S</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#self">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div id="intro">
+            <p>Hi There!</p>
+            <p>I am <span class="typed"></span></p>
+            <!-- Button trigger modal -->
+            <button type="button" data-toggle="modal" data-target="#exampleModal">
+                Contact Me
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">Contact Form</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="mailto:email.com?subject=email&message=comment" method="post" enctype="text/plain">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Textarea1">Message</label>
+                                    <textarea class="form-control" id="Textarea1" rows="3" cols="3" name="comment"></textarea>
+                                    <small id="Help" class="form-text "></small>
+
+                                </div>
+
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" id="formbtn" onclick="sendMail()" href="mailto:modimahira92@gmail.com">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div id="particles-js">
+            <div id="self">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col col2 col-md-6 col-12 " id="self_icon" data-aos="fade-right">
+                            <img src="images/3d.png" alt="">
+                        </div>
+                        <div class=" col col1 col-md-6 col-12" id="self_p">
+                            <div data-aos="fade-down">
+                                <h2 class="heading">ABOUT ME</h2>
+                                <p>I am a full-stack Web Developer who designs and develops experiences that make people's life simple and better, currently, I am pursuing computer engineering. Also, I am a state-level Tchokball player. Other than developing
+                                    my favorite pass time are painting, playing chess, and spending time with my family. To see some of my work scrolls down below.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="about">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col col2 col-md-6 col-12 ">
+                    <h2 class="heading">EDUCATION</h2>
+                    <div class="wrapper">
+                        <div class="center-line"></div>
+                        <div class="row row1" data-aos="fade-down">
+                            <section>
+                                <div class="details">
+                                    <i class="fas fa-book"></i>
+                                    <p class="title">Primary</p>
+                                </div>
+                                <p>Government high school</p>
+                                <p>Tamilnadu,theni,periyakulam</p>
+								<P>10th - 96%</p>
+
+                            </section>
+                        </div>
+                        <div class="row row2" data-aos="fade-down">
+                            <section>
+                                <div class="details">
+                                    <i class="fas fa-school"></i>
+                                    <p class="title">Secondary</p>
+                                </div>
+                                <p>V.M.Boys high  School</p>
+                                <p>Theni,Periyakulam</p>
+                                <p>12th - 70%</p>
+
+                            </section>
+                        </div>
+                        <div class="row row1" data-aos="fade-down">
+                            <section>
+                                <div class="details">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <p class="title">B.E.CSE</p>
+                                </div>
+                                <p>RVS COLLEGE OF ENGINEERING AND TECHNOLOGY</p>
+								<P>ANNA UNIVERSITY</P>
+							
+                                <p>Dindigul,TAMILNADU</p>
+								<P>CGPA(5TH SEM)- 8.6%</P>
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col col1 col-md-6 col-12">
+                    <h2 class="heading">SKILLS</h2>
+                    <div class="skills">
+                        <div><i class="fab fa-html5"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div><i class="fab fa-css3-alt"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div><i class="fab fa-js-square"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div><i class="fab fa-node-js"></i>
+                            <p>Node-js</p>
+                        </div>
+                        <div><i class="fas fa-database"></i>
+                            <p>MongoDB</p>
+                        </div>
+                        <div><i id="express">Express.js</i>
+                            <p>ExpressJS</p>
+                        </div>
+                        <div><i class="fab fa-react"></i>
+                            <p>Reactjs</p>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section id="work">
+        <h2 class="heading">WORK</h2>
+        <div class="container-fluid" data-aos="fade-down">
+            <div class="row row-md-12" data-aos="fade-left">
+
+                <div class="col-sm">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="images/musicplay.png" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <p>INSTA CLONE</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i
+                                        class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="images/logo.jpeg" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <p>INSTA CLONE</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="images/weather.png" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <p>STUDENT MANAGEMENT SYSTEM</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="images/funlearn.png" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <P>E COMMERCE WEB SITE</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row row-md-12" data-aos="fade-right">
+
+                <div class="col-sm ">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="images/mahiarch.png" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <p>ME_JEMINI</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i
+                                        class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="images/coffeeshop.png" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <p>PORTFOLIO</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="images/raise.png" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <p>WHATAPP CLONE</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="img-container">
+                        <div class="img">
+                            <figure>
+                                <img src="https://assets.brand.microsites.netflix.io/assets/493f5bba-81a4-11e9-bf79-066b49664af6_cm_1440w.png?v=26" alt="" class="front">
+                            </figure>
+                            <figure class="back">
+                                <p>Netflix_Clone</p>
+                                <a href="https://github.com/Mrjemini/instagram-clone.git"><i class="fab fa-github"></i></a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class=" col col-4 ">
+                    <p id="p1">Connect with me:</p>
+                    <p id="icons"><a href="https://instagram.com/mr__jemini?igshid=YmMyMTA2M2Y="><i
+                                class="fab fa-instagram"></i></a><a href="gh repo clone Mrjemini/instagram-clone"><i
+                                class="fab fa-github"></i></a><a href=""><i
+                                class="fab fa-facebook-messenger"></i></a>
+                        <a href="https://www.linkedin.com/in/jemini-s-72307a210"><i class="fab fa-linkedin"></i></a>
+                    </p>
+                </div>
+                <div class="fot col col-8">
+                    <p>Made with <i class="fas fa-heart "></i> by Mr_JEMINI</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="javascript/particles.js"></script>
+    <script src="javascript/app.js"></script>
+    <script src="javascript/index.js"></script>
+    <script src="javascript/typed.js "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        var typed = new Typed('.typed', {
+            strings: [
+                "Jemini. ",
+                "a Designer. ",
+                "a Developer. ",
+
+
+            ],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true,
+        });
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+            delay: 400,
+        });
+
+        (function() {
+            emailjs.init("user_hZTwRvGLYJjdntLn6HaWP");
+        })();
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>
